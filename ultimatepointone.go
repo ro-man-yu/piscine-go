@@ -1,4 +1,4 @@
-package main
+package ultimatepointone
 
 import "fmt"
 
