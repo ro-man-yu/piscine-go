@@ -8,3 +8,4 @@ func IterativeFactorial(nb int) int {
 	}
 	return a
 }
+	
