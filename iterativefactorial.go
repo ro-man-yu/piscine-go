@@ -1,4 +1,4 @@
-package piscine
+package main
 
 func IterativeFactorial(nb int) int {
 	a := 1 //var result int
@@ -7,4 +7,4 @@ func IterativeFactorial(nb int) int {
 		a = a * i
 	}
 	return a
-}	
+}
