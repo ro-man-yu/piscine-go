@@ -9,5 +9,5 @@ func IterativeFactorial(nb int) int {
 			a = a * i
 		}
 		return a		
-	}
+	}	
 }
