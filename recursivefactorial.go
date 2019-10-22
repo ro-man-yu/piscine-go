@@ -1,17 +1,10 @@
-package main
-
-import "fmt"
+package piscine
 
 func RecursiveFactorial(nb int) int {
 	if nb == 1 { 
 		return 1
-	} else if nb <= 0 || nb >= 20 {
+	} else if nb <= 0 && nb >= 20 {
 		return 0
 	}
 	return nb * RecursiveFactorial(nb - 1)	
-}
-	
-func main() {
-	arg := 4
-	fmt.Println(RecursiveFactorial(arg))
 }
